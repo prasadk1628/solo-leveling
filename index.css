@@ -1,0 +1,12 @@
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { background: #0a0c14; color: #e8eaf0; font-family: 'Segoe UI', sans-serif; min-height: 100vh; }
+:root {
+  --bg: #0a0c14; --surface: #111520; --card: #151a28;
+  --blue: #4a9eff; --gold: #e8b84b; --danger: #ff4a6b; --success: #3dd68c; --purple: #a78bfa;
+  --text: #e8eaf0; --text2: #6b7280; --border: #1e2640;
+}
+button { cursor: pointer; border: none; outline: none; }
+input { outline: none; }
+::-webkit-scrollbar { width: 4px; }
+::-webkit-scrollbar-track { background: var(--surface); }
+::-webkit-scrollbar-thumb { background: var(--border); border-radius: 2px; }
